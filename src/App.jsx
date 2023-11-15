@@ -9,7 +9,19 @@ import Count from "./components/Count";
 import Project from "./components/Project";
 import Bussiness from "./components/Bussiness";
 
+import Video from "./components/Video";
+import Review from "./components/Review";
+
+import News from "./components/News";
+import Footer from "./components/Footer";
+import { useEffect } from "react";
+import { observerAnimate } from "./observer";
+
 const App = function () {
+  useEffect(() => {
+    observerAnimate();
+  }, []);
+
   return (
     <>
       <Header />
@@ -22,8 +34,11 @@ const App = function () {
         <Count />
         <Project />
         <Bussiness />
+        <Video />
+        <Review />
+        <News />
       </main>
-      <footer></footer>
+      <Footer />
     </>
   );
 };

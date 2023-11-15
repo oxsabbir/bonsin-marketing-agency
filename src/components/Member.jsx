@@ -6,7 +6,7 @@ import MainHeading from "./MainHeading";
 const Member = function () {
   return (
     <>
-      <Section background={"bg-white"}>
+      <Section background={"bg-white"} classes={"anim"}>
         <MainHeading
           title={`Meet Our Team Member`}
           description={`  Nunc nec amet vestibulum. Nunc fringilla, aenean ipsum lorem morbi

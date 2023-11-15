@@ -5,7 +5,7 @@ import svgIcon from "../assets/svgs/svgIcon";
 
 const Header = function () {
   return (
-    <header className="bg-pinkBg text-white flex justify-center">
+    <header className="bg-pinkBg hidden sm:flex text-white justify-center">
       <div
         className={`${styles.boxWidth} ${styles.paddingX} sm:py-4 py-2 gap-1 gap flex sm:flex-row flex-col justify-between`}
       >

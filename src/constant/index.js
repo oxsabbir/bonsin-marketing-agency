@@ -20,6 +20,17 @@ import member3 from "../assets/image/member/item3.png";
 import project1 from "../assets/image/project/item1.png";
 import project2 from "../assets/image/project/item2.png";
 
+// review img
+
+import reviewer1 from "../assets/image/review/user1.png";
+import reviewer2 from "../assets/image/review/user2.png";
+
+// news img
+
+import news1 from "../assets/image/news/news1.png";
+import news2 from "../assets/image/news/news2.png";
+import news3 from "../assets/image/news/news3.png";
+
 export const socialLinks = [
   {
     links: "www.facebook.com/#",
@@ -195,5 +206,161 @@ export const projectContent = [
     image: project2,
     title: "Financial Services",
     details: "Client : Melan",
+  },
+];
+
+export const businessFaq = [
+  {
+    question: "Citae interdum ullamcorper turpis",
+    answer: `Mas turpis vestibulum sed. Sem eleifend rhoncus phasellus
+contetuer magnis in. Ornare sed nibh elit enim, pellentesque
+dolor, nusit, massa est turpis arcu et nec, sagittis euismod arcu
+faucibus. Sapien doloaean vitae ante arcu sagittis vestibulum
+doloribus`,
+  },
+  {
+    question: "Citae interdum ullamcorper turpis",
+    answer: `Mas turpis vestibulum sed. Sem eleifend rhoncus phasellus
+contetuer magnis in. Ornare sed nibh elit enim, pellentesque
+dolor, nusit, massa est turpis arcu et nec, sagittis euismod arcu
+faucibus. Sapien doloaean vitae ante arcu sagittis vestibulum
+doloribus`,
+  },
+  {
+    question: "Citae interdum ullamcorper turpis",
+    answer: `Mas turpis vestibulum sed. Sem eleifend rhoncus phasellus
+contetuer magnis in. Ornare sed nibh elit enim, pellentesque
+dolor, nusit, massa est turpis arcu et nec, sagittis euismod arcu
+faucibus. Sapien doloaean vitae ante arcu sagittis vestibulum
+doloribus`,
+  },
+];
+
+export const reviewContent = [
+  {
+    profile: reviewer1,
+    name: "Rashed Filter",
+    role: "Designer",
+    review: `Ladipisicing elit. Sint voluptate, repudiandae
+inventore quos repellendus nostrum quis
+numquam consequatur. Hic`,
+  },
+  {
+    profile: reviewer2,
+    name: "James Bond",
+    role: "Developer",
+    review: `Ladipisicing elit. Sint voluptate, repudiandae
+inventore quos repellendus nostrum quis
+numquam consequatur. Hic`,
+  },
+];
+
+export const newsContent = [
+  {
+    image: news1,
+    title: `The Advantages Minimal
+Repair Technique`,
+    date: "24 March 2021",
+    details: `Strategic initiatives all ideas welcome
+rather it’s by our employees generous
+boundaries by listening intently`,
+  },
+  {
+    image: news2,
+    title: `The Advantages Minimal
+Repair Technique`,
+    date: "24 March 2021",
+    details: `Strategic initiatives all ideas welcome
+rather it’s by our employees generous
+boundaries by listening intently`,
+  },
+  {
+    image: news3,
+    title: `The Advantages Minimal
+Repair Technique`,
+    date: "24 March 2021",
+    details: `Strategic initiatives all ideas welcome
+rather it’s by our employees generous
+boundaries by listening intently`,
+  },
+];
+
+export const footerLink = [
+  {
+    heading: "Quick Link",
+    links: [
+      {
+        title: "My Account",
+        link: "#account",
+      },
+      {
+        title: "Affiliate Program",
+        link: "#account",
+      },
+      {
+        title: "Projects",
+        link: "#account",
+      },
+      {
+        title: "Team Members",
+        link: "#account",
+      },
+      {
+        title: "Pricing",
+        link: "#account",
+      },
+    ],
+  },
+
+  {
+    heading: "Help Center",
+    links: [
+      {
+        title: "Help center",
+        link: "#help",
+      },
+      {
+        title: "FAQ",
+        link: "#help",
+      },
+      {
+        title: "Quick Start Guide",
+        link: "#help",
+      },
+      {
+        title: "Terms & Conditions",
+        link: "#help",
+      },
+      {
+        title: "Contact Now",
+        link: "#help",
+      },
+    ],
+  },
+
+  {
+    heading: "Legal Info",
+    links: [
+      {
+        title: "Complaints Policy",
+        link: "#legal",
+      },
+      {
+        title: "Security",
+        link: "#legal",
+      },
+      {
+        title: "Become Affiliate",
+        link: "#legal",
+      },
+      {
+        title: "Terms of Service",
+        link: "#legal",
+      },
+      {
+        title: "Privacy Notice",
+        link: "#legal",
+      },
+    ],
   },
 ];

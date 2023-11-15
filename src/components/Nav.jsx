@@ -6,7 +6,7 @@ import { navMenu } from "../constant";
 const Nav = function () {
   return (
     <>
-      <nav className=" flex justify-center bg-white">
+      <nav className=" flex justify-center sticky top-0 z-30 bg-white">
         <div
           className={`${styles.boxWidth} ${styles.paddingX} md:py-6 p-3 flex justify-between items-center `}
         >

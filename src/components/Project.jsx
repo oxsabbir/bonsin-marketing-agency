@@ -6,7 +6,12 @@ import styles from "../styles";
 const Project = function () {
   return (
     <>
-      <Section background={"bg-white"}>
+      <Section
+        background={"bg-white"}
+        top={true}
+        id={"project"}
+        classes={"anim"}
+      >
         <MainHeading
           title={`Our Recent Project`}
           description={`Nunc nec amet vestibulum. Nunc fringilla, aenean ipsum lorem morbi consectetuer

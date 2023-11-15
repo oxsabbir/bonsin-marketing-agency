@@ -5,14 +5,15 @@ import Section from "./Section";
 const About = function () {
   return (
     <>
-      <Section background={"bg-white"}>
+      <Section background={"bg-white"} id={"about"} classes={"anim"}>
         <div className="flex md:flex-row flex-col gap-6 md:gap-8">
           {aboutContent.map((item, i) => (
             <div
-              className="hover:shadow-lg duration-300 hover:cursor-pointer rounded-lg flex justify-center flex-col items-center text-center gap-4 py-8 px-6"
+              id="list-of-about"
+              className="hover:shadow-lg duration-300 hover:cursor-pointer rounded-lg flex  justify-center flex-col items-center text-center gap-4 py-8 px-6"
               key={i}
             >
-              <div className=" bg-pinkBg  rounded-[50%]">
+              <div className=" bg-pinkBg rounded-[50%]">
                 <img className="p-[20px]" src={item.icon} />
               </div>
               <h2 className={`${styles.smallTitle}`}>{item.title}</h2>
