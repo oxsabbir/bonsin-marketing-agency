@@ -1,11 +1,16 @@
 import styles from "../styles";
 
-const Section = function ({ children, background }) {
+const Section = function ({ children, background, top, id, classes }) {
   return (
     <>
-      <section className={`${styles.flexCenter}  ${background}`}>
+      <section
+        id={id}
+        className={`${styles.flexCenter}  ${background} ${classes}`}
+      >
         <div
-          className={`${styles.boxWidth} ${styles.paddingX} ${styles.paddingY} `}
+          className={`${styles.boxWidth} ${styles.paddingX} ${
+            top ? styles.paddingTop : styles.paddingY
+          } `}
         >
           {children}
         </div>

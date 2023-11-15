@@ -6,7 +6,7 @@ import MainHeading from "./MainHeading";
 const Services = function () {
   return (
     <>
-      <Section background={"bg-grayBg"}>
+      <Section background={"bg-grayBg"} id={"services"} classes={"anim"}>
         <MainHeading
           title={"Our Best Services"}
           description={`  Nunc nec amet vestibulum. Nunc fringilla, aenean ipsum lorem morbi
@@ -22,7 +22,7 @@ const Services = function () {
                 width={"100%"}
                 height={"auto"}
               />
-              <div className=" p-8">
+              <div className=" p-8 ">
                 <h3 className={`${styles.smallTitle} my-3`}>{item.title}</h3>
                 <p className={`${styles.sectionPara}`}>{item.details}</p>
               </div>

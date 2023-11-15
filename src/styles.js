@@ -6,6 +6,7 @@ const styles = {
 
   paddingX: "sm:px-16 px-6",
   paddingY: "sm:py-[100px] py-[50px]",
+  paddingTop: "sm:pt-[100px] pt-[50px]",
   padding: "sm:px-16 px-6 sm:py-12 py-4",
 
   marginX: "sm:mx-16 mx-6",
