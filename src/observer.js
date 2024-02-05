@@ -3,7 +3,6 @@ export const observerAnimate = function () {
   const observerCb = (entry, observer) => {
     entry.forEach((entry) => {
       if (entry.isIntersecting) {
-        console.log(entry);
         entry.target.classList.add("animeShow");
       } else {
         entry.target.classList.add("animeHidden");

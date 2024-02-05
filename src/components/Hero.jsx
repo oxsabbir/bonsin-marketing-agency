@@ -14,7 +14,7 @@ const Hero = function () {
           backgroundRepeat: "no-repeat",
         }}
         className=" h-[751px] flex justify-center"
-        id="#home"
+        id="home"
       >
         <div
           className={`${styles.boxWidth} ${styles.paddingX} flex items-center  h-full text-white`}
